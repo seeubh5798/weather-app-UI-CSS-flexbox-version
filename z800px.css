@@ -1,0 +1,12 @@
+div.weather__temp{
+    flex-direction: column;
+    /* align-items: space-evenly; */
+}
+
+
+/* selects all 7 day child at once */
+div.weather__temp > div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
